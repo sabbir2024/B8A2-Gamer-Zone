@@ -1,0 +1,424 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    padding: 10px 160px;
+}
+
+/* nav styles */
+
+.nav-container,
+.nav-content,
+.nav-content ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content ul li,
+.nav-icone {
+    margin-right: 25px;
+}
+
+.nav-content ul li {
+    list-style: none;
+}
+
+.nav-content ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav-icone {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 28px;
+    margin-right: 15px;
+}
+
+.nav-container .lite-red {
+    color: #FF42A5;
+}
+
+
+.nav-container .nav-content .fa-brands {
+    color: #FF42A5;
+}
+
+
+.nav-title img {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+
+/* Banner 1 section */
+
+main {
+    background: #FFF;
+}
+
+.banner-container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1.2rem;
+}
+
+
+.banner-container .banner-content {
+    max-width: 100%;
+    padding: 2.2rem;
+}
+
+.banner-container .banner-content h3 {
+    color: #0B0223;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+}
+
+.banner-container .banner-content h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 0px;
+
+}
+
+.banner-container .banner-content p {
+    color: #534C64;
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.banner-container .banner-content .btn-1 {
+    color: #FFF;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+}
+
+.banner-container .banner-content .btn-2 {
+    color: #FFF;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    background: #4EC5F7;
+    border: none;
+}
+
+.banner-pic img {
+    max-width: 100%;
+}
+
+/* banner 2 section */
+
+.banner-container-2nd {
+    display: flex;
+}
+
+.banner-pic-2nd img {
+    max-width: 100%;
+}
+
+.banner-container-2nd .banner-content-2nd {
+    max-width: 100%;
+    text-align: right;
+    padding: 10px;
+}
+
+.banner-content-2nd h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content-2nd p {
+    color: #534C64;
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+.banner-container-2nd .banner-content-2nd button {
+    color: #FFF;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+}
+
+.banner-container-2nd .banner-content-2nd h4 {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+
+.banner-container-2nd .banner-content-2nd h3 {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+/* online section style */
+
+.online-section {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.online-section h3 {
+    color: #0B0223;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+.online-section p {
+    color: #534C64;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.lite-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* card-styles */
+
+.card-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.card-container img {
+    max-width: 100%;
+}
+
+.card-container p {
+    max-width: 100%;
+    color: #534C64;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+/* online-play game section */
+
+.online-game-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4.9rem;
+}
+
+.online-content {
+    text-align: center;
+    padding: 40px;
+}
+
+.online-content h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.online-content p {
+    color: #534C64;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+
+.online-game-img .img1st {
+    max-width: 100%;
+}
+
+.online-game-img .img2nd {
+    width: 100%;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+
+
+.online-game-img .img2nd .i2img {
+    width: 50%;
+}
+
+
+/* catagory */
+
+
+.catagori-container-2 {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.catagori-container-2 img {
+    max-width: 10px;
+    padding-right: 10px;
+}
+
+
+.catagori-container-2 p {
+    color: #0B0223;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+footer {
+    max-width: 100%;
+    background: #0B0223;
+    color: #FFF;
+
+}
+
+.footer-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-container .logo {
+
+    max-width: 40px;
+    margin-right: 10px;
+
+}
+
+.footer-container .lite-red {
+    color: #FF42A5;
+
+}
+
+.footer-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.footer-container ul li {
+    margin-right: 30px;
+}
+
+.footer-container ul a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.socal i {
+    margin-right: 30px;
+}
+
+/* mobile devive */
+
+@media screen and (max-width:576px) {
+
+
+    body,
+    .banner-container-2nd,
+    .banner-container-2nd div,
+    .card-container,
+    .online-game-container,
+    .online-game-img {
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .nav-container,
+    .nav-container .nav-content,
+    .nav-content ul,
+    .banner-container-2nd,
+    .card-container,
+    .online-game-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .banner-container-2nd div {
+        max-width: 100%;
+        text-align: center !important;
+    }
+
+
+}
+
+/* tablet version */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    body,
+    .banner-container-2nd,
+    .banner-container-2nd div,
+    .card-container,
+    .online-game-img {
+        padding: 30px;
+        margin: 0 auto;
+    }
+
+    .nav-container,
+    .nav-container .nav-content,
+    .nav-content ul,
+    .banner-container-2nd,
+    .online-game-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .banner-container-2nd div {
+        max-width: 100%;
+        text-align: center !important;
+    }
+}
