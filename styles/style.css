@@ -243,6 +243,9 @@ main {
     font-weight: 500;
 }
 
+.card-container .card img:hover{
+    width: 600px;
+}
 /* online-play game section */
 
 .online-game-container {
