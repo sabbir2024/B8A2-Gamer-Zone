@@ -4,8 +4,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-body {
+.body {
     padding: 10px 160px;
+    margin: 0;
+    max-width: 100vw;
 }
 
 /* nav styles */
@@ -118,6 +120,14 @@ main {
     border: none;
 }
 
+.banner-container .banner-content .btn-1:hover{
+    cursor: pointer;
+}
+
+.banner-container .banner-content .btn-2:hover{
+    cursor: pointer;
+}
+
 .banner-container .banner-content .btn-2 {
     color: #FFF;
     font-size: 0.7rem;
@@ -174,6 +184,10 @@ main {
     padding: 10px 20px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     border: none;
+}
+
+.banner-container-2nd .banner-content-2nd button:hover{
+    cursor: pointer;
 }
 
 .banner-container-2nd .banner-content-2nd h4 {
@@ -372,7 +386,7 @@ footer {
 @media screen and (max-width:576px) {
 
 
-    body,
+    .body,
     .banner-container-2nd,
     .banner-container-2nd div,
     .card-container,
@@ -407,7 +421,7 @@ footer {
 /* tablet version */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    body,
+    .body,
     .banner-container-2nd,
     .banner-container-2nd div,
     .card-container,
