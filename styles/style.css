@@ -357,23 +357,29 @@ main {
 
 
 .catagori-container-2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
     max-width: 100%;
     justify-content: center;
-    align-items: center;
-    margin-right: 1.3rem;
+    /* align-items: center; */
+    text-align: center;
     cursor: progress;
 }
 
-.catagori-container-2 .game-logo:hover{
-    border: 1PX solid darkcyan;
-    border-radius: 5px;
+.catagori-container-2 .game-logo:hover {
+    max-width: 100%;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
     align-items: center;
 }
 
+.catagori-container-2 .game-logo {
+    display: flex;
+}
 
 footer {
-    max-width: 100%;
+    max-width: 100vw;
     background: #0B0223;
     color: #FFF;
 
@@ -387,7 +393,7 @@ footer {
 
 .footer-container .logo {
 
-    max-width: 40px;
+    max-width: 15rem;
     margin-right: 10px;
 
 }
@@ -455,15 +461,29 @@ footer {
         text-align: center !important;
     }
 
-  
 
-    .footer-container ul{
+
+    .footer-container ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .footer-container .services{
+
+    .footer-container .services {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .catagori-container-2 {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .catagori-container-2 .game-logo p {
+        font-size: 0.6rem;
+    }
+
+    .catagori-container-2 .game-logo img {
+        max-width: 30%;
     }
 
 }
@@ -492,7 +512,7 @@ footer {
     .banner-container {
         flex-direction: column-reverse;
     }
-   
+
 
 
     .banner-container-2nd div {
@@ -500,11 +520,13 @@ footer {
         text-align: center !important;
     }
 
-    .footer-container ul{
+    .catagori-container-2,
+    .footer-container ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .footer-container .services{
+
+    .footer-container .services {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
